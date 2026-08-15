@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>정보 | PBN 빌더 – 마포 스트릿패션</title>
+<meta name="description" content="마포에서 시작한 진짜 스트릿 감성 PBN 빌더의 모든 것. 우리 방식, 우리 스타일.">
+<meta name="keywords" content="PBN, PBN 빌더, 마포 스트릿패션, 스트릿 웨어, 링크 빌딩, SEO, bro 스타일, raw 감성, 네온-보이드, 정보">
+<link rel="canonical" href="https://sf-t3-1779642675702-421.maphoshirts.xyz/about.html">
+<meta property="og:title" content="정보 | PBN 빌더 – 마포 스트릿패션">
+<meta property="og:description" content="마포에서 시작한 진짜 스트릿 감성 PBN 빌더의 모든 것. 우리 방식, 우리 스타일.">
+<style>
+ *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+ html { font-size:16px; scroll-behavior:smooth; }
+ body {
+ font-family:'Courier New', Courier, monospace;
+ background:#0a0a0a;
+ color:#e0e0e0;
+ min-height:100vh;
+ line-height:1.6;
+ position:relative;
+ overflow-x:hidden;
+ }
+ body::before {
+ content:'';
+ position:fixed;
+ top:0;left:0;width:100%;height:100%;
+ background: repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
+ repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px);
+ pointer-events:none;
+ z-index:0;
+ }
+ a { color:#ff2a6d; text-decoration:none; font-weight:bold; transition:all 0.2s; }
+ a:hover { color:#05d9e8; text-shadow:0 0 8px #05d9e8; }
+ img, svg { max-width:100%; display:block; }
+ ul { list-style:none; }
+
+ /* typography */
+ h1 { font-size:3rem; font-weight:900; letter-spacing:-2px; text-transform:uppercase; color:#ff2a6d; line-height:1; margin-bottom:0.5rem; }
+ h2 { font-size:2.2rem; font-weight:800; letter-spacing:-1px; text-transform:uppercase; color:#05d9e8; margin-bottom:1rem; border-left:4px solid #ff2a6d; padding-left:0.75rem; }
+ h3 { font-size:1.6rem; font-weight:700; color:#e0e0e0; margin-bottom:0.5rem; }
+ h4 { font-size:1.2rem; font-weight:600; color:#a0a0a0; margin-bottom:0.3rem; }
+ p { margin-bottom:1rem; font-size:1rem; color:#b0b0b0; }
+ .container {
+ max-width:1200px;
+ margin:0 auto;
+ padding:1rem 2rem;
+ position:relative;
+ z-index:1;
+ }
+
+ /* nav-present + hamburger-menu */
+ nav {
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:1rem 2rem;
+ background:rgba(10,10,10,0.95);
+ border-bottom:2px solid #ff2a6d;
+ position:sticky;
+ top:0;
+ z-index:100;
+ }
+ nav .logo { font-size:1.5rem; font-weight:900; color:#05d9e8; text-transform:uppercase; letter-spacing:-1px; }
+ nav .logo span { color:#ff2a6d; }
+ nav .nav-links { display:flex; gap:2rem; }
+ nav .nav-links a { color:#e0e0e0; font-size:1rem; font-weight:600; text-transform:uppercase; letter-spacing:1px; padding:0.3rem 0; border-bottom:2px solid transparent; }
+ nav .nav-links a:hover { border-bottom-color:#ff2a6d; }
+ .hamburger {
+ display:none;
+ flex-direction:column;
+ gap:4px;
+ cursor:pointer;
+ background:none;
+ border:none;
+ }
+ .hamburger span {
+ width:28px; height:3px;
+ background:#05d9e8;
+ transition:0.3s;
+ }
+
+ /* hero */
+ .hero {
+ text-align:center;
+ padding:4rem 0 3rem 0;
+ border-bottom:1px solid #1a1a1a;
+ }
+ .hero h1 { font-size:3.5rem; }
+ .hero p { font-size:1.3rem; color:#a0a0a0; max-width:700px; margin:1rem auto; }
+
+ /* section */
+ .section { padding:3rem 0; }
+ .section h2 { margin-bottom:2rem; }
+
+ /* grid for info cards */
+ .info-grid {
+ display:grid;
+ grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+ gap:2rem;
+ }
+ .card {
+ background:#111;
+ border:1px solid #222;
+ padding:2rem;
+ border-radius:0;
+ position:relative;
+ transition:0.2s;
+ }
+ .card:hover { border-color:#ff2a6d; }
+ .card h3 { color:#ff2a6d; margin-bottom:0.8rem; }
+ .card p { color:#b0b0b0; }
+
+ /* accordion / faq */
+ .faq-list { max-width:800px; margin:0 auto; }
+ .faq-item { border-bottom:1px solid #1a1a1a; padding:1rem 0; }
+ .faq-question { font-weight:700; font-size:1.2rem; color:#e0e0e0; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+ .faq-answer { margin-top:0.5rem; color:#888; display:none; }
+ .faq-item.active .faq-answer { display:block; }
+
+ /* footer */
+ footer {
+ text-align:center;
+ padding:2rem;
+ border-top:1px solid #1a1a1a;
+ color:#555;
+ font-size:0.9rem;
+ }
+
+ /* responsive-768 */
+ @media (max-width:768px) {
+ .hamburger { display:flex; }
+ nav .nav-links {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ width:100%;
+ background:rgba(10,10,10,0.98);
+ flex-direction:column;
+ gap:0;
+ border-bottom:2px solid #ff2a6d;
+ }
+ nav .nav-links a { padding:1rem 2rem; border-bottom:1px solid #1a1a1a; }
+ nav .nav-links.open { display:flex; }
+ .container { padding:1rem; }
+ h1 { font-size:2.2rem; }
+ .hero h1 { font-size:2.5rem; }
+ }
+
+ /* tel-link */
+ .tel-link { 
+ display:inline-block;
+ background:#ff2a6d;
+ color:#0a0a0a;
+ padding:0.6rem 1.8rem;
+ font-weight:900;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ border:none;
+ font-size:1rem;
+ cursor:pointer;
+ transition:0.2s;
+ }
+ .tel-link:hover { background:#05d9e8; color:#0a0a0a; }
+</style>
+  <meta property="og:url" content="https://sf-t3-1779642675702-421.maphoshirts.xyz/about.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+<nav id="navbar">
+ <div class="logo">PBN<span>빌더</span></div>
+ <div class="nav-links" id="navLinks">
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/services">서비스</a>
+ <a href="/contact">연락</a>
+ </div>
+ <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+ 
+ </button>
+<a href="posts.html">글 목록</a></nav>
+<div class="container">
+ <section class="hero">
+ <h1>정보</h1>
+ <p>마포 거리에서 시작된 PBN 빌더. <br>우리만의 방식, 우리만의 스타일. 궁금하면 물어봐.</p>
+ 
+ </section>
+
+ <section class="section">
+ <h2>이게 뭔데</h2>
+ <div class="info-grid">
+ <div class="card">
+ <h3>PBN = 링크 파워</h3>
+ <p>네 사이트를 검색 상위에 올리려면 백링크가 필요해. 우리는 스트릿 감성으로 진짜 도메인들을 굴려서 파워를 만들어줘. 가짜 아니야, 다 진짜야.</p>
+ </div>
+ <div class="card">
+ <h3>마포에서 시작한 이유</h3>
+ <p>여긴 문화가 살아있어. 홍대 클럽부터 연남동 골목까지. 우리는 이 에너지를 PBN에 넣어. 지루한 템플릿은 안 팔아.</p>
+ </div>
+ <div class="card">
+ <h3>브로 스타일</h3>
+ <p>설명서 같은 거 안 읽어도 돼. 전화 한 통이면 끝. "야, 내 사이트 좀 띄워줘" – 그러면 우리가 다 해. 쉽지?</p>
+ </div>
+ </div>
+ </section>
+
+ <section class="section">
+ <h2>이런 걸 할 수 있어</h2>
+ <div class="info-grid">
+ <div class="card">
+ <h3>도메인 발굴</h3>
+ <p>죽은 도메인을 살려내거나 새 도메인을 키워서 PBN 네트워크에 넣어. 평균 3개월이면 첫 효과 나와.</p>
+ </div>
+ <div class="card">
+ <h3>콘텐츠 피팅</h3>
+ <p>각 도메인에 맞는 리얼한 글을 써. 봇이 쓴 티 안 나고, 자연스러워서 검색에도 안 걸려.</p>
+ </div>
+ <div class="card">
+ <h3>모니터링</h3>
+ <p>네 사이트 순위 오르는 거 실시간으로 체크. 문제 생기면 바로 연락 가고, 바로 수정 들어가.</p>
+ </div>
+ </div>
+ </section>
+
+ <section class="section">
+ <h2>자주 묻는 거</h2>
+ <div class="faq-list">
+ <div class="faq-item active">
+ <div class="faq-question">PBN 걸리면 위험한 거 아니야? <span style="color:#ff2a6d;">▼</span></div>
+ <div class="faq-answer">예전에는 위험했는데 지금은 우리 방식으로 하면 안 걸려. 도메인 히스토리 체크하고, 자연스러운 링크 구조를 만들어. 구글도 못 잡아.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">가격은 어떻게 돼? <span style="color:#ff2a6d;">▼</span></div>
+ <div class="faq-answer">기본 셋업 50만원부터 시작. 유지비는 월 10만원. 도메인 추가할 때마다 추가됨. 무료 상담은 전화로 해.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">결과 보장돼? <span style="color:#ff2a6d;">▼</span></div>
+ <div class="faq-answer">100% 보장은 없지만 지금까지 92%가 3개월 안에 상위 10위 안에 들었어. 못 믿겠으면 첫 달만 해보고 결정해.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">스트릿패션 업종만 돼? <span style="color:#ff2a6d;">▼</span></div>
+ <div class="faq-answer">아니. 우리가 시작한 동기가 스트릿패션이라 그렇지, 모든 업종 다 해. 부동산, 쇼핑몰, 개인 블로그까지. 근데 스트릿 감성을 원하면 더 잘 맞춰줄게.</div>
+ </div>
+ </div>
+ </section>
+
+ <section class="section" style="text-align:center;">
+ <h2>지금 바로 연락해</h2>
+ <p style="margin-bottom:1.5rem;">전화 한 통이면 우리가 다 설명해줄게. <br>카톡도 문자도 상관없음. 편한 걸로 해.</p>
+ 
+ <p style="margin-top:2rem; font-size:0.9rem; color:#666;">전화 안 받으면 곧 다시 걸어. 형 바쁠 때도 있음.</p>
+ </section>
+</div>
+<footer>© 2025 PBN 빌더 – 마포에서 굴리는 진짜 스트릿 링크 파워.</footer>
+<script>
+ // hamburger-menu toggle
+ document.getElementById('hamburger').addEventListener('click', function() {
+ document.getElementById('navLinks').classList.toggle('open');
+ });
+ // faq accordion
+ document.querySelectorAll('.faq-question').forEach(item => {
+ item.addEventListener('click', function() {
+ this.parentElement.classList.toggle('active');
+ });
+ });
+</script>
+</body>
+</html>
